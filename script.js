@@ -40,9 +40,8 @@ function createTask() {
         tasDiv2.classList.add('actions')
         taskDiv.appendChild(tasDiv2)
         const newDiv = document.createElement('div')
-        const icon = document.createElement('span')
-        icon.classList.add('delete-icon3')
-        icon.textContent = 'x'
+        const icon = document.createElement('i')
+        icon.classList.add('fa-solid', 'fa-circle-xmark', 'delete-icon3')
         newDiv.classList.add('delete')
         tasDiv2.appendChild(newDiv)
         newDiv.appendChild(icon)

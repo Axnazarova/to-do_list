@@ -118,22 +118,19 @@ input {
 }
 
 .delete-icon {
-  border-radius: 50%;
-  border: 1px solid #c4c4c4;
-  font-size: 13px;
-  padding: 2px 6px;
-  color: #c4c4c4;
   position: absolute;
   right: 19px;
   top: 14px;
 }
 
+.delete-icon,
 .delete-icon3 {
-  border-radius: 50%;
-  border: 1px solid #c4c4c4;
-  font-size: 13px;
-  padding: 1px 7px;
   color: #c4c4c4;
+  font-size: 25px;
+  color: #c4c4c4;
+}
+
+.delete-icon3 {
   position: absolute;
   right: 6px;
   top: 8px;
@@ -141,20 +138,19 @@ input {
 
 .delete-icon:hover {
   cursor: pointer;
-  background-color: #9953f1;
-  color: white;
+  color: #9953f1;
   border: transparent;
 }
 
 .delete-icon3:hover {
-  background-color: #9953f1;
-  color: white;
-  border: transparent;
   cursor: pointer;
+  color: #9953f1;
+  border: transparent;
 }
 
 #push {
   position: relative;
+  padding-left: 17px;
 }
 
 .plus {
