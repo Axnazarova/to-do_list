@@ -1,0 +1,167 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: white;
+  font-family: "Roboto", sans-serif;
+}
+
+.container {
+  width: 336px;
+  min-height: 236px;
+  border: 1px solid #c4c4c4;
+  border-radius: 10px;
+  margin: auto;
+  margin-top: 120px;
+  padding-bottom: 5px;
+}
+
+.rectangle {
+  background-color: #ffdc40;
+  width: 100%;
+  height: 28px;
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+}
+
+h1 {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 26px;
+  line-height: 30px;
+  text-align: center;
+  margin-top: 25px;
+}
+
+.sort-icon {
+  position: relative;
+  right: -120px;
+}
+
+button {
+  background-color: #833ae0;
+  width: 150px;
+  height: 42px;
+  font-family: "Roboto";
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+  color: #ffffff;
+  border-radius: 27px;
+  border: transparent;
+  position: relative;
+  margin-top: 10px;
+}
+
+button:hover {
+  opacity: 0.8;
+}
+
+.input {
+  border-radius: 10px;
+  border: 1px solid #c4c4c4;
+  width: 286px;
+  height: 40px;
+  margin-top: 5px;
+  padding: 5px;
+}
+
+input {
+  border: transparent;
+  width: 286px;
+  height: 20px;
+  margin-top: 5px;
+}
+
+#newtask {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  height: 50%;
+}
+
+.task {
+  border-radius: 10px;
+  align-items: center;
+  justify-content: space-between;
+  border: 1px solid#c4c4c4;
+  height: 50px;
+  margin: 8px 0;
+  padding: 5px 10px;
+  display: flex;
+  width: 286px;
+}
+
+.task span {
+  font-family: "Poppins", sans-serif;
+  font-size: 13px;
+  font-weight: 400;
+}
+
+.actions {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+
+.main-input {
+  display: flex;
+  position: relative;
+}
+
+.delete-icon {
+  border-radius: 50%;
+  border: 1px solid #c4c4c4;
+  font-size: 13px;
+  padding: 2px 6px;
+  color: #c4c4c4;
+  position: absolute;
+  right: 19px;
+  top: 14px;
+}
+
+.delete-icon3 {
+  border-radius: 50%;
+  border: 1px solid #c4c4c4;
+  font-size: 13px;
+  padding: 1px 7px;
+  color: #c4c4c4;
+  position: absolute;
+  right: 6px;
+  top: 8px;
+}
+
+.delete-icon:hover {
+  cursor: pointer;
+  background-color: #9953f1;
+  color: white;
+  border: transparent;
+}
+
+.delete-icon3:hover {
+  background-color: #9953f1;
+  color: white;
+  border: transparent;
+  cursor: pointer;
+}
+
+#push {
+  position: relative;
+}
+
+.plus {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: 50%;
+  background-color: #9953f1;
+  padding: 13px 17px;
+}
